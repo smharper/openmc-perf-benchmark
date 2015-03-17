@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<plots>
+<!--
+-->
+  <plot id="1" type="slice" basis="xy" color="cell"
+    origin="0.0 0.0 115.0" width="400.0 400.0" pixels="4000 4000">
+  </plot>
+
+  <plot id="2" type="slice" basis="xy" color="material"
+    origin="0.0 0.0 -28.0" width="400.0 400.0" pixels="4000 4000">
+    <col_spec id="601" rgb="180 180 180"/>
+    <col_spec id="602" rgb="50 50 50"/>
+    <col_spec id="603" rgb="100 100 100"/>
+    <col_spec id="604" rgb="150 100 100"/>
+    <col_spec id="1401" rgb="200 200 50"/>
+    <col_spec id="901" rgb="100 255 255"/>
+    <col_spec id="9201" rgb="255 50 50"/>
+  </plot>
+
+  <plot id="3" type="slice" basis="xy" color="material"
+    origin="0.0 0.0 -15.0" width="400.0 400.0" pixels="4000 4000">
+    <col_spec id="601" rgb="180 180 180"/>
+    <col_spec id="602" rgb="50 50 50"/>
+    <col_spec id="603" rgb="100 100 100"/>
+    <col_spec id="604" rgb="150 100 100"/>
+    <col_spec id="1401" rgb="200 200 50"/>
+    <col_spec id="901" rgb="100 255 255"/>
+    <col_spec id="9201" rgb="255 50 50"/>
+  </plot>
+
+  <plot id="4" type="slice" basis="xy" color="material"
+    origin="0.0 0.0 115.0" width="400.0 400.0" pixels="4000 4000">
+    <col_spec id="601" rgb="180 180 180"/>
+    <col_spec id="602" rgb="50 50 50"/>
+    <col_spec id="603" rgb="100 100 100"/>
+    <col_spec id="604" rgb="150 100 100"/>
+    <col_spec id="1401" rgb="200 200 50"/>
+    <col_spec id="901" rgb="100 255 255"/>
+    <col_spec id="9201" rgb="255 50 50"/>
+  </plot>
+
+  <plot id="5" type="slice" basis="xy" color="material"
+    origin="0.0 0.0 126.0" width="400.0 400.0" pixels="4000 4000">
+    <col_spec id="601" rgb="180 180 180"/>
+    <col_spec id="602" rgb="50 50 50"/>
+    <col_spec id="603" rgb="100 100 100"/>
+    <col_spec id="604" rgb="150 100 100"/>
+    <col_spec id="1401" rgb="200 200 50"/>
+    <col_spec id="901" rgb="100 255 255"/>
+    <col_spec id="9201" rgb="255 50 50"/>
+  </plot>
+
+  <plot id="6" type="slice" basis="xz" color="material"
+    origin="0.0 0.0 60.0" width="400.0 180.0" pixels="500 180">
+    <col_spec id="601" rgb="180 180 180"/>
+    <col_spec id="602" rgb="50 50 50"/>
+    <col_spec id="603" rgb="100 100 100"/>
+    <col_spec id="604" rgb="150 100 100"/>
+    <col_spec id="1401" rgb="200 200 50"/>
+    <col_spec id="901" rgb="100 255 255"/>
+    <col_spec id="9201" rgb="255 50 50"/>
+  </plot>
+
+  <plot id="7" type="slice" basis="yz" color="material"
+    origin="0.0 0.0 60.0" width="400.0 180.0" pixels="500 180">
+    <col_spec id="601" rgb="180 180 180"/>
+    <col_spec id="602" rgb="50 50 50"/>
+    <col_spec id="603" rgb="100 100 100"/>
+    <col_spec id="604" rgb="150 100 100"/>
+    <col_spec id="1401" rgb="200 200 50"/>
+    <col_spec id="901" rgb="100 255 255"/>
+    <col_spec id="9201" rgb="255 50 50"/>
+  </plot>
+
+<!--
+  <plot id="3" type="slice" basis="xz" color="material"
+    origin="0.0 0.0 67.5" width="50 150" pixels="200 600">
+    <col_spec id="601" rgb="180 180 180"/>
+    <col_spec id="602" rgb="50 50 50"/>
+    <col_spec id="603" rgb="100 100 100"/>
+    <col_spec id="604" rgb="150 100 100"/>
+    <col_spec id="1401" rgb="200 200 50"/>
+    <col_spec id="901" rgb="100 255 255"/>
+    <col_spec id="9201" rgb="255 50 50"/>
+  </plot>
+
+  <plot id="4" type="slice" basis="xy" color="material"
+    origin="0.0 3.12 5.0" width="1.8 1.8" pixels="500 500">
+    <col_spec id="601" rgb="180 180 180"/>
+    <col_spec id="602" rgb="50 50 50"/>
+    <col_spec id="603" rgb="100 100 100"/>
+    <col_spec id="604" rgb="150 100 100"/>
+    <col_spec id="1401" rgb="200 200 50"/>
+    <col_spec id="901" rgb="100 255 255"/>
+    <col_spec id="9201" rgb="255 50 50"/>
+  </plot>
+-->
+</plots>

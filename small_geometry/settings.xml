@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!-- Parameters for k-eigenvalue calculation -->
+  <eigenvalue>
+    <batches>550</batches>
+    <inactive>50</inactive>
+    <particles>5000</particles>
+  </eigenvalue>
+
+  <!-- Starting source -->
+  <source>
+    <space type="box">
+      <parameters>-87.0 -75.0 -10.0 87.0 75.0 125.0</parameters>
+    </space>
+  </source>
+
+  <!-- Shannon entropy mesh -->
+  <entropy>
+    <dimension>30 30 30</dimension>
+    <lower_left>-108.0 -125.0 -11.0</lower_left>
+    <upper_right>108.0 125.0 126.0</upper_right>
+  </entropy>
+
+</settings>

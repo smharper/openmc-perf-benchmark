@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<materials>
+  <default_xs note="1200 K">73c</default_xs>
+
+
+  <material id="601">
+    <note>Material 601: carbon buffer
+      Porous carbon buffer, AGR-2 specification, density 1.0 g/cm3
+      Assumed to contain 3 ppm natural boron impurity
+      XS temperature taken as 1200 K (900 C)
+    </note>
+    <density value="1.0" units="g/cc"/>
+    <nuclide name="C-Nat" ao="1"/>
+    <nuclide name="B-10"  ao="6.63249E-07"/>
+    <nuclide name="B-11"  ao="2.66966E-06"/>
+    <sab name="grph" xs="17t"/>
+  </material>
+
+
+  <material id="602">
+    <note>Material 602: pyrolitic graphite
+      Inner and outer pyrolitic graphite, AGR-2 specification,
+      density 1.87 g/cm3
+      Assumed to contain 3 ppm natural boron impurity
+      XS temperature taken as 1200 K (900 C)
+    </note>
+    <density value="1.87" units="g/cc"/>
+    <nuclide name="C-Nat" ao="1"/>
+    <nuclide name="B-10"  ao="6.63249E-07"/>
+    <nuclide name="B-11"  ao="2.66966E-06"/>
+    <sab name="grph" xs="17t"/>
+  </material>
+
+
+  <material id="603">
+    <note>Material 603: graphite block
+      Toyo Tanso IG-110 specification, density 1.75 g/cm3
+      Assumed to contain 3 ppm natural boron impurity
+      XS temperature taken as 1200 K (900 C)
+    </note>
+    <density value="1.75" units="g/cc"/>
+    <nuclide name="C-Nat" ao="1"/>
+    <nuclide name="B-10"  ao="6.63249E-07"/>
+    <nuclide name="B-11"  ao="2.66966E-06"/>
+    <sab name="grph" xs="17t"/>
+  </material>
+
+
+  <material id="604">
+    <note>Material 604: graphite matrix
+      Graphite matrix material of compact, AGR-2 specification,
+      density 1.59 g/cm3
+      Assumed to contain 3 ppm natural boron impurity
+      XS temperature taken as 1200 K (900 C)
+    </note>
+    <density value="1.59" units="g/cc"/>
+    <nuclide name="C-Nat" ao="1"/>
+    <nuclide name="B-10"  ao="6.63249E-07"/>
+    <nuclide name="B-11"  ao="2.66966E-06"/>
+    <sab name="grph" xs="17t"/>
+  </material>
+
+
+  <material id="901">
+    <note>Material 901: salt coolant
+      Baseline design NaF-ZrF4 salt coolant (NaF 59.5 mol%, ZrF4 40.5 mol%)
+      ZrF4 limited to ~40% mol fraction to limit vapor pressure of binary salt
+      melt
+      XS temperature taken as 900 K (600 C)
+    </note>
+    <density value="2.96" units="g/cc"/>
+    <nuclide name="F-19"  ao="6.889580E-01"/>
+    <nuclide name="Na-23" ao="1.850700E-01"/>
+    <nuclide name="Zr-90" ao="6.481260E-02"/>
+    <nuclide name="Zr-91" ao="1.413406E-02"/>
+    <nuclide name="Zr-92" ao="2.160420E-02"/>
+    <nuclide name="Zr-94" ao="2.189393E-02"/>
+    <nuclide name="Zr-96" ao="3.527216E-03"/>
+  </material>
+
+
+  <material id="1401">
+    <note>Material 1401: silicon carbide
+      SiC layer, AGR-2 specification, density 3.2 g/cm3
+      Assumed to contain 3 ppm natural boron impurity
+      XS temperature taken as 1200 K (900 C)
+    </note>
+    <density value="3.18" units="g/cc"/>
+    <nuclide name="Si-28" ao="4.61149E-01"/>
+    <nuclide name="Si-29" ao="2.34160E-02"/>
+    <nuclide name="Si-30" ao="1.54360E-02"/>
+    <nuclide name="C-Nat" ao="0.5"/>
+    <nuclide name="B-10"  ao="1.10609E-06"/>
+    <nuclide name="B-11"  ao="4.45616E-06"/>
+    <sab name="grph" xs="17t"/>
+  </material>
+
+
+  <material id="9201">
+    <note>Material 9201: fuel
+      UCO fuel k350nel, AGR-2 specification, 19.5 a% U-235 enriched
+      Note that oxygen approximated as 100% O-16
+      Kernel assumed to contain 3 ppm natural boron impurity
+      XS temperature taken as 1200 K (original 1500 K)
+    </note>
+    <density value="11.0" units="g/cc"/>
+    <nuclide name="U-235" ao="6.91744E-02"/>
+    <nuclide name="U-238" ao="2.85566E-01"/>
+    <nuclide name="C-Nat" ao="1.39196E-01"/>
+    <nuclide name="O-16"  ao="5.06064E-01"/>
+    <nuclide name="B-10"  ao="5.19023E-06"/>
+    <nuclide name="B-11"  ao="2.08913E-05"/>
+  </material>
+</materials>
